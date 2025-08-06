@@ -4,10 +4,10 @@ from ..utils.traversal import traverse_obj
 
 
 class TrtWorldIE(InfoExtractor):
-    _VALID_URL = r'https?://www\.trtworld\.com/video/[\w-]+/[\w-]+-(?P<id>\d+)'
+    _VALID_URL = r'https?://www\.trt\.global\.com/world/video/[\w-]+/[\w-]+-(?P<id>\d+)'
 
     _TESTS = [{
-        'url': 'https://www.trtworld.com/video/news/turkiye-switches-to-sustainable-tourism-16067690',
+        'url': 'https://trt.global/world/video/16067690',
         'info_dict': {
             'id': '16067690',
             'ext': 'mp4',
@@ -18,7 +18,7 @@ class TrtWorldIE(InfoExtractor):
             'description': 'md5:0a975c04257fb529c8f99c7b76a2cf12',
         },
     }, {
-        'url': 'https://www.trtworld.com/video/one-offs/frames-from-anatolia-recreating-a-james-bond-scene-in-istanbuls-grand-bazaar-14541780',
+        'url': 'https://trt.global/world/video/14541780',
         'info_dict': {
             'id': '14541780',
             'ext': 'mp4',
@@ -29,7 +29,7 @@ class TrtWorldIE(InfoExtractor):
             'description': 'md5:4050e21570cc3c40b6c9badae800a94f',
         },
     }, {
-        'url': 'https://www.trtworld.com/video/the-newsmakers/can-sudan-find-peace-amidst-failed-transition-to-democracy-12904760',
+        'url': 'https://trt.global/world/video/12904760',
         'info_dict': {
             'id': '12904760',
             'ext': 'mp4',
@@ -39,7 +39,7 @@ class TrtWorldIE(InfoExtractor):
             'thumbnail': 'http://cdni0.trtworld.com/w768/q70/154214_NMYOUTUBETEMPLATE1_1681833018736.jpg',
         },
     }, {
-        'url': 'https://www.trtworld.com/video/africa-matters/locals-learning-to-cope-with-rising-tides-of-kenyas-great-lakes-16059545',
+        'url': 'https://trt.global/world/video/16059545',
         'info_dict': {
             'id': 'zEns2dWl00w',
             'ext': 'mp4',
